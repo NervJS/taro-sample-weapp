@@ -78,42 +78,42 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@tarojs/components@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/components/-/components-1.2.2.tgz#3a9a6a1e5575f7565d74c7640afd141918c5c1b5"
+"@tarojs/components@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/components/-/components-1.2.7.tgz#abd6329c873ad20426e2957ced3fce09bc9cd715"
   dependencies:
     classnames "^2.2.5"
     nervjs "^1.3.0"
     omit.js "^1.0.0"
     weui "^1.1.2"
 
-"@tarojs/plugin-babel@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/plugin-babel/-/plugin-babel-1.2.2.tgz#e1f948ca8aba65ad01ebadff445f0e3b129198d1"
+"@tarojs/plugin-babel@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/plugin-babel/-/plugin-babel-1.2.7.tgz#6d9e737495a8177f402a15e078553a866f904cf5"
   dependencies:
     babel-core "^6.26.0"
 
-"@tarojs/plugin-csso@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/plugin-csso/-/plugin-csso-1.2.2.tgz#bea75fe2732012542837f9aa1df6c8585a99e99e"
+"@tarojs/plugin-csso@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/plugin-csso/-/plugin-csso-1.2.7.tgz#7650ce00f971f1fc18d7688e99aa202b88bde99b"
   dependencies:
     csso "^3.5.0"
 
-"@tarojs/plugin-sass@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/plugin-sass/-/plugin-sass-1.2.2.tgz#3ee84033d30de87c2c7b46c0b84fa5457866f07a"
+"@tarojs/plugin-sass@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/plugin-sass/-/plugin-sass-1.2.7.tgz#998083a135bd623bc4e22dced28addb6a9cf1a50"
   dependencies:
     node-sass "^4.8.3"
 
-"@tarojs/plugin-uglifyjs@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/plugin-uglifyjs/-/plugin-uglifyjs-1.2.2.tgz#9e0c55ae718d076305d4e6387597fb8b3afdf8ce"
+"@tarojs/plugin-uglifyjs@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/plugin-uglifyjs/-/plugin-uglifyjs-1.2.7.tgz#d626c23e70481976a7af9d69adf321ba863aa8dc"
   dependencies:
     uglify-js "^3.3.24"
 
-"@tarojs/router@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/router/-/router-1.2.2.tgz#7543ff9e65a206dcf42f0b188d3b70f6f9301e6e"
+"@tarojs/router@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/router/-/router-1.2.7.tgz#e1d439cdb3963887276bcc6d1b04efaf39c1a219"
   dependencies:
     invariant "^2.2.4"
     lodash "^4.17.11"
@@ -122,48 +122,49 @@
     value-equal "^0.4.0"
     warning "^4.0.2"
 
-"@tarojs/taro-h5@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/taro-h5/-/taro-h5-1.2.2.tgz#5a7fa73eeb029e77309fb8227eb7a1b422435c6d"
+"@tarojs/taro-h5@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/taro-h5/-/taro-h5-1.2.7.tgz#8e456bdf2ff28c0ae63124ec7c8b3ead3363a9fe"
   dependencies:
-    "@tarojs/taro" "1.2.2"
+    "@tarojs/taro" "1.2.7"
     base64-js "^1.3.0"
     jsonp-retry "^1.0.3"
     mobile-detect "^1.4.2"
     whatwg-fetch "^2.0.4"
 
-"@tarojs/taro-weapp@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/taro-weapp/-/taro-weapp-1.2.2.tgz#e94187d46b8b87f054dde2db6c8a727ab64bf9c4"
+"@tarojs/taro-weapp@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/taro-weapp/-/taro-weapp-1.2.7.tgz#b0b9af382e43421e202305c6484c0345804adbfa"
   dependencies:
-    "@tarojs/taro" "1.2.2"
-    "@tarojs/utils" "1.2.2"
+    "@tarojs/taro" "1.2.7"
+    "@tarojs/utils" "1.2.7"
     lodash "^4.17.10"
     prop-types "^15.6.1"
 
-"@tarojs/taro@1.2.2", "@tarojs/taro@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/taro/-/taro-1.2.2.tgz#6770ac02d66ad8e567a56a6e7a741e25cc1970de"
+"@tarojs/taro@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/taro/-/taro-1.2.7.tgz#0a2457329aaa3537a90ecef978245d6b30cee6bf"
 
-"@tarojs/utils@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/utils/-/utils-1.2.2.tgz#acb58dc44e289ab34d4fce690297027d598f1d82"
+"@tarojs/utils@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/utils/-/utils-1.2.7.tgz#6e25b3ce9bc14a7ea81337398454f2215ee82ec6"
 
-"@tarojs/webpack-runner@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@tarojs/webpack-runner/-/webpack-runner-1.2.2.tgz#d2922fdeb6f08a2a9b9916eb7b94acc3f36a2eb5"
+"@tarojs/webpack-runner@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/@tarojs/webpack-runner/-/webpack-runner-1.2.7.tgz#67b1b51f56b9c9ba3007574ddd4ef824f3153b18"
   dependencies:
     "@types/lodash" "^4.14.116"
     autoprefixer "^8.6.4"
     babel-core "^6.26.0"
     babel-loader "^7.1.4"
+    babel-plugin-dev-expression "^0.2.1"
     babel-plugin-syntax-dynamic-import "^6.18.0"
     babel-plugin-transform-react-jsx "^6.24.1"
     chalk "^2.4.1"
     clean-webpack-plugin "^0.1.19"
     css-loader "^1.0.0"
     csso-webpack-plugin "^1.0.0-beta.12"
-    file-loader "^1.1.11"
+    file-loader "^3.0.1"
     html-webpack-include-assets-plugin "^1.0.5"
     html-webpack-plugin "^3.1.0"
     less "^3.0.4"
@@ -176,8 +177,8 @@
     postcss-csso "^3.0.0"
     postcss-loader "^2.1.3"
     postcss-modules "^1.4.1"
-    postcss-plugin-constparse "1.2.2"
-    postcss-pxtransform "1.2.2"
+    postcss-plugin-constparse "1.2.7"
+    postcss-pxtransform "1.2.7"
     resolve "^1.8.1"
     resolve-url-loader "^2.3.0"
     sass-loader "^7.0.3"
@@ -783,6 +784,10 @@ babel-plugin-check-es2015-constants@^6.22.0:
   resolved "https://registry.npmjs.org/babel-plugin-check-es2015-constants/-/babel-plugin-check-es2015-constants-6.22.0.tgz#35157b101426fd2ffd3da3f75c7d1e91835bbf8a"
   dependencies:
     babel-runtime "^6.22.0"
+
+babel-plugin-dev-expression@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/babel-plugin-dev-expression/-/babel-plugin-dev-expression-0.2.1.tgz#d4a7beefefbb50e3f2734990a82a2486cf9eb9ee"
 
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
@@ -2238,11 +2243,11 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-taro@^1.2.1:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/eslint-config-taro/-/eslint-config-taro-1.2.2.tgz#9b1644a527e41868828ad20fa4fee44f0071d322"
+eslint-config-taro@1.2.7:
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/eslint-config-taro/-/eslint-config-taro-1.2.7.tgz#b5a7b28c958c316fa3ae2952fd240b998ecac581"
   dependencies:
-    eslint-plugin-taro "1.2.2"
+    eslint-plugin-taro "1.2.7"
 
 eslint-import-resolver-node@^0.3.1:
   version "0.3.2"
@@ -2283,9 +2288,9 @@ eslint-plugin-react@^7.8.2:
     jsx-ast-utils "^2.0.1"
     prop-types "^15.6.2"
 
-eslint-plugin-taro@1.2.2, eslint-plugin-taro@^1.2.1:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/eslint-plugin-taro/-/eslint-plugin-taro-1.2.2.tgz#e5855131adfeffc88f108148c54ea72c19a005e1"
+eslint-plugin-taro@1.2.7:
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/eslint-plugin-taro/-/eslint-plugin-taro-1.2.7.tgz#5fe4abb0d2a81891b961004a5b7925e8c4e7e88b"
   dependencies:
     has "^1.0.1"
 
@@ -2563,12 +2568,12 @@ file-entry-cache@^2.0.0:
     flat-cache "^1.2.1"
     object-assign "^4.0.1"
 
-file-loader@^1.1.11:
-  version "1.1.11"
-  resolved "https://registry.npmjs.org/file-loader/-/file-loader-1.1.11.tgz#6fe886449b0f2a936e43cabaac0cdbfb369506f8"
+file-loader@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/file-loader/-/file-loader-3.0.1.tgz#f8e0ba0b599918b51adfe45d66d1e771ad560faa"
   dependencies:
     loader-utils "^1.0.2"
-    schema-utils "^0.4.5"
+    schema-utils "^1.0.0"
 
 fill-range@^4.0.0:
   version "4.0.0"
@@ -4688,9 +4693,9 @@ postcss-modules@^1.4.1:
     postcss "^7.0.1"
     string-hash "^1.1.1"
 
-postcss-plugin-constparse@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/postcss-plugin-constparse/-/postcss-plugin-constparse-1.2.2.tgz#66666da9e5f3d7e14516325c5c13483f4816dc93"
+postcss-plugin-constparse@1.2.7:
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/postcss-plugin-constparse/-/postcss-plugin-constparse-1.2.7.tgz#18ab9614b0c3dc3858016104447e5a71d7361895"
   dependencies:
     postcss "^6.0.22"
 
@@ -4701,9 +4706,9 @@ postcss-pxtorem@^4.0.1:
     object-assign "^4.1.0"
     postcss "^5.2.10"
 
-postcss-pxtransform@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/postcss-pxtransform/-/postcss-pxtransform-1.2.2.tgz#cf9822571b8215f4a5e4c43c40f7efe2823dbcf0"
+postcss-pxtransform@1.2.7:
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/postcss-pxtransform/-/postcss-pxtransform-1.2.7.tgz#9fdcce29ca27958994e46a3ac3622a0a7f196f14"
   dependencies:
     postcss "^6.0.16"
     postcss-pxtorem "^4.0.1"
