@@ -7,7 +7,10 @@ import './index.scss'
 export default class Index extends Component {
 
   config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: '首页',
+    usingComponents: {
+      'tab': '../../components/tab/tab'
+    }
   }
 
   gotoWxParse () {
@@ -28,9 +31,14 @@ export default class Index extends Component {
     })
   }
 
+  tabEvent (e) {
+    console.log(e)
+  }
+
   render () {
     return (
       <View className='index'>
+        <tab onMyevent={this.tabEvent} myProperty='This is tab' />
         <View className='title'>与小程序原生融合的各种示例</View>
         <View className='main'>
           <View className='wrapper'>
