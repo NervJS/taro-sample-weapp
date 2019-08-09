@@ -1,4 +1,10 @@
 <view class="native" bindtap="viewTap">
+  <text>这里是页面调用 原生 组件</text>
   <text>{{text}}{{x}}</text>
-  <tab myProperty="kkl" bindmyevent="handler" />
+  <tab myProperty="---------------------native component" bindmyevent="handler" />
+  <view class='taro-component'>
+    <text>这里是原生页面调用 taro 组件</text>
+    <text>{{taroText}}</text>
+    <tabNative myProperty="+++++++++++++++++++taro component" bindmyevent="taroHandler"></tabNative>
+  </view>
 </view>

@@ -5,6 +5,7 @@
   "backgroundColor": "#eeeeee",
   "backgroundTextStyle": "light",
   "usingComponents": {
-    "tab": "../../components/tab/tab"
+    "tab": "../../components/tab/tab",
+    "tabNative": "../../components/tabTaro/tabTaro"
   }
 }
