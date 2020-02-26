@@ -9,19 +9,7 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  plugins: {
-    babel: {
-      sourceMap: true,
-      presets: [
-        'env'
-      ],
-      plugins: [
-        'transform-class-properties',
-        'transform-decorators-legacy',
-        'transform-object-rest-spread'
-      ]
-    }
-  },
+  framework: 'react',
   defineConstants: {
   },
   copy: {
@@ -36,15 +24,6 @@ const config = {
       exclude: ['src/components/ec-canvas/echarts.js']
     },
     module: {
-      postcss: {
-        autoprefixer: {
-          enable: true
-        },
-        url: {
-          enable: true,
-          limit: 10240
-        }
-      }
     }
   },
   h5: {
@@ -52,9 +31,7 @@ const config = {
     staticDirectory: 'static',
     module: {
       postcss: {
-        autoprefixer: {
-          enable: true
-        }
+
       }
     }
   }

@@ -1,17 +1,10 @@
-import Taro, { Component } from '@tarojs/taro'
-import { View, Text } from '@tarojs/components'
-import { AtButton } from 'taro-ui'
+import Taro from '@tarojs/taro'
+import React from 'react'
+import { View, Text, Button } from '@tarojs/components'
 
 import './index.scss'
 
-export default class Index extends Component {
-
-  config = {
-    navigationBarTitleText: '首页',
-    usingComponents: {
-      'tab': '../../components/tab/tab'
-    }
-  }
+export default class Index extends React.Component {
 
   gotoWxParse () {
     Taro.navigateTo({
@@ -42,13 +35,13 @@ export default class Index extends Component {
         <View className='title'>与小程序原生融合的各种示例</View>
         <View className='main'>
           <View className='wrapper'>
-            <AtButton type='primary' onClick={this.gotoWxParse}>wxParse 示例</AtButton>
+            <Button type='primary' onClick={this.gotoWxParse}>wxParse 示例</Button>
           </View>
           <View className='wrapper'>
-            <AtButton type='primary' onClick={this.gotoEcharts}>echarts-for-weixin 示例</AtButton>
+            <Button type='primary' onClick={this.gotoEcharts}>echarts-for-weixin 示例</Button>
           </View>
           <View className='wrapper'>
-            <AtButton type='primary' onClick={this.gotoNative}>混写原生页面示例</AtButton>
+            <Button type='primary' onClick={this.gotoNative}>混写原生页面示例</Button>
           </View>
         </View>
       </View>
