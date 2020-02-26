@@ -1,22 +1,15 @@
-import Taro from '@tarojs/taro'
-import React from 'react'
+import Vue from 'vue'
+import { Block } from '@tarojs/components'
 
-import './app.scss'
+// Vue.config.productionTip = false
 
-class App extends React.Component {
-  componentDidMount () {}
-
-  componentDidShow () {}
-
-  componentDidHide () {}
-
-  componentCatchError () {}
-
-  render () {
-    return (
-      this.props.children
-    )
+const App = new Vue({
+  onShow (options) {
+  },
+  render(h) {
+    // this.$slots.default 是将要会渲染的页面
+    return h(Block, this.$slots.default)
   }
-}
+})
 
 export default App

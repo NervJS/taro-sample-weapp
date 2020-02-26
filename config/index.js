@@ -9,7 +9,7 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  framework: 'react',
+  framework: 'vue',
   defineConstants: {
   },
   copy: {

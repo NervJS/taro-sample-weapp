@@ -1,5 +1,10 @@
-import React from 'react'
-import { View } from '@tarojs/components'
+<template>
+  <view className='echarts'>
+    <ec-canvas id='mychart-dom-area' canvas-id='mychart-area' :ec="ec"></ec-canvas>
+  </view>
+</template>
+
+<script>
 import * as echarts from '../../components/ec-canvas/echarts'
 
 import './echarts.scss'
@@ -82,21 +87,13 @@ function initChart(canvas, width, height) {
   chart.setOption(option)
   return chart
 }
-
-export default class Echarts extends React.Component {
-
-  state = {
-    ec: {
-      onInit: initChart
+export default {
+  data() {
+    return {
+      ec: {
+        onInit: initChart
+      }
     }
   }
-
-  render () {
-    return (
-      <View className='echarts'>
-        <ec-canvas id='mychart-dom-area' canvas-id='mychart-area' ec={this.state.ec}></ec-canvas>
-      </View>
-    )
-  }
 }
-
+</script>
