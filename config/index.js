@@ -1,3 +1,4 @@
+const path = require('path')
 const config = {
   projectName: 'taro-sample-weapp',
   date: '2018-9-10',
@@ -9,18 +10,27 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  plugins: {
-    babel: {
-      sourceMap: true,
-      presets: [
-        'env'
-      ],
-      plugins: [
-        'transform-class-properties',
-        'transform-decorators-legacy',
-        'transform-object-rest-spread'
+  babel: {
+    sourceMap: true,
+    presets: [
+      [
+        'env',
+        {
+          modules: false
+        }
       ]
-    }
+    ],
+    plugins: [
+      'transform-decorators-legacy',
+      'transform-class-properties',
+      'transform-object-rest-spread',
+      ['transform-runtime', {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true,
+        "moduleName": 'babel-runtime'
+      }]
+    ]
   },
   defineConstants: {
   },
@@ -31,18 +41,26 @@ const config = {
     ],
     options: {}
   },
-  weapp: {
+  mini: {
     compile: {
-      exclude: ['src/components/ec-canvas/echarts.js']
+      // exclude: [
+      //   function (modulePath) {
+      //     return modulePath.indexOf('vod-wx-sdk-v2') >= 0
+      //   }
+      // ]
+      exclude: [path.resolve(__dirname, '..', 'src/pages/index/vod-wx-sdk-v2.js')]
     },
-    module: {
-      postcss: {
-        autoprefixer: {
-          enable: true
-        },
-        url: {
-          enable: true,
-          limit: 10240
+    webpackChain (chain, webpack) {},
+    cssLoaderOption: {},
+    postcss: {
+      pxtransform: {
+        enable: true,
+        config: {}
+      },
+      url: {
+        enable: true,
+        config: {
+          limit: 10240 // 设定转换尺寸上限
         }
       }
     }
@@ -50,10 +68,16 @@ const config = {
   h5: {
     publicPath: '/',
     staticDirectory: 'static',
-    module: {
-      postcss: {
-        autoprefixer: {
-          enable: true
+    webpackChain (chain, webpack) {},
+    postcss: {
+      autoprefixer: {
+        enable: true,
+        config: {
+          browsers: [
+            'last 3 versions',
+            'Android >= 4.1',
+            'ios >= 8'
+          ]
         }
       }
     }
