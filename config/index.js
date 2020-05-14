@@ -48,7 +48,10 @@ const config = {
       //     return modulePath.indexOf('vod-wx-sdk-v2') >= 0
       //   }
       // ]
-      exclude: [path.resolve(__dirname, '..', 'src/pages/index/vod-wx-sdk-v2.js')]
+      exclude: [
+        path.resolve(__dirname, '..', 'src/pages/index/vod-wx-sdk-v2.js'),
+        path.resolve(__dirname, '..', 'src/components/ec-canvas/echarts.js')
+      ]
     },
     webpackChain (chain, webpack) {},
     cssLoaderOption: {},

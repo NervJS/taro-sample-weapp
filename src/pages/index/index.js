@@ -1,6 +1,7 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
 import { AtButton } from 'taro-ui'
+import 'taro-ui/dist/style/components/button.scss'
 
 import './index.scss'
 

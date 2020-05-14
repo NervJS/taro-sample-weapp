@@ -16,21 +16,21 @@
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
-		"@tarojs/components": "2.1.4",
-		"@tarojs/router": "2.1.4",
-		"@tarojs/taro": "2.1.4",
-		"@tarojs/taro-h5": "2.1.4",
-		"@tarojs/taro-weapp": "2.1.4",
+		"@tarojs/components": "2.2.4",
+		"@tarojs/router": "2.2.4",
+		"@tarojs/taro": "2.2.4",
+		"@tarojs/taro-h5": "2.2.4",
+		"@tarojs/taro-weapp": "2.2.4",
 		"nervjs": "^1.5.6",
-		"taro-ui": "^1.1.5"
+		"taro-ui": "^2.3.4"
 	},
 	"devDependencies": {
-		"@tarojs/mini-runner": "2.1.4",
-		"@tarojs/plugin-babel": "2.1.4",
-		"@tarojs/plugin-csso": "2.1.4",
-		"@tarojs/plugin-sass": "2.1.4",
-		"@tarojs/plugin-uglifyjs": "2.1.4",
-		"@tarojs/webpack-runner": "2.1.4",
+		"@tarojs/mini-runner": "2.2.4",
+		"@tarojs/plugin-babel": "2.2.4",
+		"@tarojs/plugin-csso": "2.2.4",
+		"@tarojs/plugin-sass": "2.2.4",
+		"@tarojs/plugin-uglifyjs": "2.2.4",
+		"@tarojs/webpack-runner": "2.2.4",
 		"@types/react": "16.3.14",
 		"@types/webpack-env": "^1.13.6",
 		"babel-eslint": "^8.2.3",
@@ -41,9 +41,9 @@
 		"babel-plugin-transform-object-rest-spread": "^6.26.0",
 		"babel-preset-env": "^1.6.1",
 		"eslint": "^4.19.1",
-		"eslint-config-taro": "2.1.4",
+		"eslint-config-taro": "2.2.4",
 		"eslint-plugin-import": "^2.12.0",
 		"eslint-plugin-react": "^7.8.2",
-		"eslint-plugin-taro": "2.1.4"
+		"eslint-plugin-taro": "2.2.4"
 	}
 }
