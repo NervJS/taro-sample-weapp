@@ -1,5 +1,5 @@
 <template>
-  <view className='echarts'>
+  <view class='echarts'>
     <ec-canvas id='mychart-dom-area' canvas-id='mychart-area' :ec="ec"></ec-canvas>
   </view>
 </template>
